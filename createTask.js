@@ -285,7 +285,7 @@ function showAll() {
     );
   }
   document.querySelectorAll(".Task-item").forEach((element) => {
-    element.remove();
+    element.remove(); 
   });
 
   for (code in data) {
